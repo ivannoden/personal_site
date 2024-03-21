@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Ivan Noden</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://ivannoden.com/posts/</link>
     <description>Recent content in Posts on Ivan Noden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ivannoden.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IMA TMT 2024 Conference: Patterns in Prime Numbers</title>
-      <link>http://localhost:1313/posts/tmt_talk/</link>
+      <link>http://ivannoden.com/posts/tmt_talk/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tmt_talk/</guid>
+      <guid>http://ivannoden.com/posts/tmt_talk/</guid>
       <description>The slides for a group presentation on the top Patterns in Prime Numbers centering around a discussion of Bunyakovsky&amp;rsquo;s Conjecture, in which we touch on Dirichlet&amp;rsquo;s Theorem, Schinzel&amp;rsquo;s Conjecture, the Twin Prime Conjecture and more.
 Last summer, I, Bruno Eaves, and Ioannis Pantelidakis gave a presentation on Patterns in Prime Numbers, focusing on a discussion around Bunyakovsky&amp;rsquo;s conjecture which captures many open questions related to prime numbers. This March, we were very grateful to have the opportunity to give this presentation at the IMA&amp;rsquo;s &amp;lsquo;Tomorrow&amp;rsquo;s Mathematicians Today 2024&amp;rsquo; undergraduate conference.</description>
     </item>
     <item>
       <title>Algebra 4: Groups and Rings Notes</title>
-      <link>http://localhost:1313/posts/algebra_4_notes/</link>
+      <link>http://ivannoden.com/posts/algebra_4_notes/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/algebra_4_notes/</guid>
+      <guid>http://ivannoden.com/posts/algebra_4_notes/</guid>
       <description>Here are my notes for the UCL course Algebra 4: Groups and Rings based on lectures by Yusra Naqvi. All mistakes are my own and all pieces of insight are hers.
 Some parts of the course are glossed over or only brief touched upon within these notes as they are written assuming the reader has taken a course in Number Theory.
 Download</description>
