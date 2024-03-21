@@ -1,0 +1,49 @@
+baseURL: 'http://ivannoden.com/'
+languageCode: 'en-gb'
+title: 'Ivan Noden'
+
+theme: "PaperMod"
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  env: production
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
+  homeInfoParams:
+    Title: Ivan Noden
+    Content: Mathematics Student
+
+  socialIcons:
+    - name: "email"
+      title: "Email"
+      url: "mailto:ivan@ivannoden.com"
+    - name: "github"
+      title: "GitHub"
+      url: "https://github.com/ivannoden"
+    - name: "rss"
+      title: "RSS"
+      url: "/index.xml"
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
