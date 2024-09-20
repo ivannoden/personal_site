@@ -1,6 +1,6 @@
 ---
 title: "IMA TMT 2024 Conference: Patterns in Prime Numbers"
-tags: ["presentations", "files", "number theory"]
+tags: ["talks", "files", "number theory"]
 date: "2024-03-21"
 ---
 

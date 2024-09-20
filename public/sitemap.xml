@@ -2,38 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ivannoden.com/tags/files/</loc>
+    <loc>http://localhost:1313/tags/files/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/posts/tmt_talk/</loc>
+    <loc>http://localhost:1313/posts/tmt_talk/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/tags/number-theory/</loc>
+    <loc>http://localhost:1313/tags/number-theory/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/tags/presentations/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/tags/</loc>
+    <loc>http://localhost:1313/tags/talks/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ivannoden.com/tags/algebra/</loc>
-    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/archive/</loc>
   </url><url>
-    <loc>http://ivannoden.com/posts/algebra_4_notes/</loc>
-    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://ivannoden.com/tags/notes/</loc>
-    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://ivannoden.com/archive/</loc>
-  </url><url>
-    <loc>http://ivannoden.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
