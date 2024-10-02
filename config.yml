@@ -8,6 +8,8 @@ params:
   defaultTheme: dark
   disableThemeToggle: true
 
+  math: true
+
   env: production
 
   assets:
@@ -48,3 +50,20 @@ menu:
       name: Archive
       url: /archive/
       weight: 30
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            -- \[
+             - \]
+            -- $$
+             - $
+          inline:
+            -- \(
+             - \)
+            -- $
+             - $
+        enable: true
