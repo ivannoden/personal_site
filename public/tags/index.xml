@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Ivan Noden</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://ivannoden.com/tags/</link>
     <description>Recent content in Tags on Ivan Noden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ivannoden.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebraic Curves</title>
-      <link>http://localhost:1313/tags/algebraic-curves/</link>
+      <link>http://ivannoden.com/tags/algebraic-curves/</link>
       <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/algebraic-curves/</guid>
+      <guid>http://ivannoden.com/tags/algebraic-curves/</guid>
       <description></description>
     </item>
     <item>
       <title>Algebraic Geometry</title>
-      <link>http://localhost:1313/tags/algebraic-geometry/</link>
+      <link>http://ivannoden.com/tags/algebraic-geometry/</link>
       <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/algebraic-geometry/</guid>
+      <guid>http://ivannoden.com/tags/algebraic-geometry/</guid>
       <description></description>
     </item>
     <item>
       <title>Files</title>
-      <link>http://localhost:1313/tags/files/</link>
+      <link>http://ivannoden.com/tags/files/</link>
       <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/files/</guid>
+      <guid>http://ivannoden.com/tags/files/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>http://localhost:1313/tags/notes/</link>
+      <link>http://ivannoden.com/tags/notes/</link>
       <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/notes/</guid>
+      <guid>http://ivannoden.com/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Number Theory</title>
-      <link>http://localhost:1313/tags/number-theory/</link>
+      <link>http://ivannoden.com/tags/number-theory/</link>
       <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/number-theory/</guid>
+      <guid>http://ivannoden.com/tags/number-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Talks</title>
-      <link>http://localhost:1313/tags/talks/</link>
+      <link>http://ivannoden.com/tags/talks/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/talks/</guid>
+      <guid>http://ivannoden.com/tags/talks/</guid>
       <description></description>
     </item>
   </channel>
