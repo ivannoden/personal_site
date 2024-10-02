@@ -18,7 +18,7 @@ The study of algebraic number theory is primarily the study of
 algebraic number fields, that is finite extensions of the rationals.
 When studying field extensions, one of the most indispensable tools is
 that of the Galois group of the extension and the famous result of
-Kronecker-Weber tells us that every finite extension of \( \mathbb{Q} \) with
+Kronecker-Weber tells us that every finite extension of \(\mathbb{Q}\) with
 an abelian Galois group is contained in a field of the form \(
 \mathbb{Q}(\zeta_n) \) where \( \zeta_n \) is a primitive \( n \)th root of
 unity. One may then ask, given some number field \( K \), does there
