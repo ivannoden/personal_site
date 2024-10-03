@@ -38,7 +38,11 @@ params:
 
 menu:
   main:
-    - identifier: talks
+    - identifier: Notes
+      name: Notes
+      url: /tags/notes
+      weight: 9
+    - identifier: Talks
       name: Talks
       url: /tags/talks
       weight: 10
