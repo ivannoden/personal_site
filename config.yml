@@ -26,7 +26,8 @@ params:
 
   homeInfoParams:
     Title: Ivan Noden
-    Content: Master's student in Mathematics at UCL.
+    Content: PhD student at UCL, supervised by Dario Beraldo. Interested in algebraic 
+    geometry and geometric representation theory.
 
   socialIcons:
     - name: "email"
