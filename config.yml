@@ -26,8 +26,7 @@ params:
 
   homeInfoParams:
     Title: Ivan Noden
-    Content: PhD student at UCL, supervised by Dario Beraldo. Interested in algebraic 
-    geometry and geometric representation theory.
+    Content: PhD student at UCL, supervised by Dario Beraldo. Interested in algebraic geometry and geometric representation theory.
 
   socialIcons:
     - name: "email"
