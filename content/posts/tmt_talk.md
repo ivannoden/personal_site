@@ -4,7 +4,7 @@ tags: ["talks", "files", "number theory"]
 date: "2024-03-21"
 ---
 
-The slides for a group presentation on the top **Patterns in Prime Numbers**
+The slides for a group presentation for a general audience on the topic **Patterns in Prime Numbers**
 centering around a discussion of Bunyakovsky's Conjecture, in which we touch on
 Dirichlet's Theorem, Schinzel's Conjecture, the Twin Prime Conjecture and more.
 
@@ -22,7 +22,7 @@ presentation and the popular vote prize respectively.
 
 Below I have attached the slides for the updated version of the talk which was
 given at the conference. These changes made the content more approachable and
-corrected a few erros in the previous version, as such I have taken those
+corrected a few errors of the previous version, as such I have taken those
 slides down.
 
 [Download](/files/patterns_in_prime_numbers_presentation.pdf)
