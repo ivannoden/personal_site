@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ivan Noden</title>
-    <link>http://ivannoden.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Ivan Noden</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://ivannoden.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on Elliptic Curves with Complex Multiplication</title>
-      <link>http://ivannoden.com/posts/elliptic_curves_with_cm/</link>
+      <link>http://localhost:1313/posts/elliptic_curves_with_cm/</link>
       <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://ivannoden.com/posts/elliptic_curves_with_cm/</guid>
+      <guid>http://localhost:1313/posts/elliptic_curves_with_cm/</guid>
       <description>&lt;p&gt;Over the summer of 2024, I was funded by UCL to undertake a research project
 under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to
 UCL for funding this and especially thankful for all the work Cecilia did in
@@ -24,10 +24,10 @@ introduction here for convenience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IMA TMT 2024 Conference: Patterns in Prime Numbers</title>
-      <link>http://ivannoden.com/posts/tmt_talk/</link>
+      <link>http://localhost:1313/posts/tmt_talk/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://ivannoden.com/posts/tmt_talk/</guid>
-      <description>&lt;p&gt;The slides for a group presentation on the top &lt;strong&gt;Patterns in Prime Numbers&lt;/strong&gt;
+      <guid>http://localhost:1313/posts/tmt_talk/</guid>
+      <description>&lt;p&gt;The slides for a group presentation for a general audience on the topic &lt;strong&gt;Patterns in Prime Numbers&lt;/strong&gt;
 centering around a discussion of Bunyakovsky&amp;rsquo;s Conjecture, in which we touch on
 Dirichlet&amp;rsquo;s Theorem, Schinzel&amp;rsquo;s Conjecture, the Twin Prime Conjecture and more.&lt;/p&gt;
 &lt;p&gt;Last summer, I, Bruno Eaves, and Ioannis Pantelidakis gave a presentation on

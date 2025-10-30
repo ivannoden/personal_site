@@ -1,7 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+ 
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    }
+  };
+</script>
+
+
+  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -16,16 +29,16 @@ The project was on elliptic curves with complex multiplication. Below is
 attached a set of explanatory notes on the topic and I have pasted the
 introduction here for convenience.">
 <meta name="author" content="">
-<link rel="canonical" href="http://ivannoden.com/posts/elliptic_curves_with_cm/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://ivannoden.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://ivannoden.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="http://ivannoden.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://ivannoden.com/apple-touch-icon.png">
-<link rel="mask-icon" href="http://ivannoden.com/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/posts/elliptic_curves_with_cm/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://ivannoden.com/posts/elliptic_curves_with_cm/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/elliptic_curves_with_cm/">
 <noscript>
     <style>
         #theme-toggle,
@@ -34,22 +47,23 @@ introduction here for convenience.">
         }
 
     </style>
-</noscript><meta property="og:title" content="Notes on Elliptic Curves with Complex Multiplication" />
-<meta property="og:description" content="Over the summer of 2024, I was funded by UCL to undertake a research project
-under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to
-UCL for funding this and especially thankful for all the work Cecilia did in
-helping me with the project. She was a brilliant supervisor and I am very glad
-to have been able to work with her.
-The project was on elliptic curves with complex multiplication. Below is
-attached a set of explanatory notes on the topic and I have pasted the
-introduction here for convenience." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://ivannoden.com/posts/elliptic_curves_with_cm/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-10-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-10-02T00:00:00+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Notes on Elliptic Curves with Complex Multiplication"/>
+</noscript><meta property="og:url" content="http://localhost:1313/posts/elliptic_curves_with_cm/">
+  <meta property="og:site_name" content="Ivan Noden">
+  <meta property="og:title" content="Notes on Elliptic Curves with Complex Multiplication">
+  <meta property="og:description" content="Over the summer of 2024, I was funded by UCL to undertake a research project under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to UCL for funding this and especially thankful for all the work Cecilia did in helping me with the project. She was a brilliant supervisor and I am very glad to have been able to work with her.
+The project was on elliptic curves with complex multiplication. Below is attached a set of explanatory notes on the topic and I have pasted the introduction here for convenience.">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-02T00:00:00+00:00">
+    <meta property="article:tag" content="Notes">
+    <meta property="article:tag" content="Files">
+    <meta property="article:tag" content="Number Theory">
+    <meta property="article:tag" content="Algebraic Geometry">
+    <meta property="article:tag" content="Algebraic Curves">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Notes on Elliptic Curves with Complex Multiplication">
 <meta name="twitter:description" content="Over the summer of 2024, I was funded by UCL to undertake a research project
 under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to
 UCL for funding this and especially thankful for all the work Cecilia did in
@@ -57,7 +71,7 @@ helping me with the project. She was a brilliant supervisor and I am very glad
 to have been able to work with her.
 The project was on elliptic curves with complex multiplication. Below is
 attached a set of explanatory notes on the topic and I have pasted the
-introduction here for convenience."/>
+introduction here for convenience.">
 
 
 <script type="application/ld+json">
@@ -69,13 +83,13 @@ introduction here for convenience."/>
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://ivannoden.com/posts/"
+      "item": "http://localhost:1313/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Notes on Elliptic Curves with Complex Multiplication",
-      "item": "http://ivannoden.com/posts/elliptic_curves_with_cm/"
+      "item": "http://localhost:1313/posts/elliptic_curves_with_cm/"
     }
   ]
 }
@@ -90,64 +104,52 @@ introduction here for convenience."/>
   "keywords": [
     "notes", "files", "number theory", "algebraic geometry", "algebraic curves"
   ],
-  "articleBody": "Over the summer of 2024, I was funded by UCL to undertake a research project under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to UCL for funding this and especially thankful for all the work Cecilia did in helping me with the project. She was a brilliant supervisor and I am very glad to have been able to work with her.\nThe project was on elliptic curves with complex multiplication. Below is attached a set of explanatory notes on the topic and I have pasted the introduction here for convenience.\nThe study of algebraic number theory is primarily the study of algebraic number fields, that is finite extensions of the rationals. When studying field extensions, one of the most indispensable tools is that of the Galois group of the extension and the famous result of Kronecker-Weber tells us that every finite extension of \\(\\mathbb{Q}\\) with an abelian Galois group is contained in a field of the form \\( \\mathbb{Q}(\\zeta_n) \\) where \\( \\zeta_n \\) is a primitive \\( n \\)th root of unity. One may then ask, given some number field \\( K \\), does there exist a field \\( L \\) such that every abelian extension of \\( K \\) is a subfield of \\( L \\)? This explanatory note aims to partially answer that question in the case where \\( K = \\mathbb{Q}(\\sqrt{-m}) \\) for some square-free \\( m \\in \\mathbb{Z}_{\u003e0} \\), that is an imaginary quadratic field. To do so, we will develop the theory of elliptic curves with complex multiplication which provides us with a correspondence between certain sets of elliptic curves over \\( \\mathbb{C} \\) and the class group of an order in an imaginary quadratic field. This correspondence relies on values of the miraculous \\( j \\)-invariant, and it is \\( j(\\tau) \\), for some \\( \\tau \\) in the upper half plane that will generate the field \\( L \\) we are after. This result requires the machinery of class field theory, which we will not go into detail on. We will, however, build up enough understanding to motivate and grasp the statement of the theorems. Along the way, we will give a detailed account of the uniformisation theorem; delve into the study of modular functions; and end by proving some remarkable facts about the \\( j \\)-invariant, in particular that, if \\( \\tau \\) is an algebraic integer in an imaginary quadratic field, then \\( j(\\tau) \\) is also an algebraic integer.\nThe structure of this note is as follows. We open with 2. Elliptic Curves which very briefly recaps key definitions relating to elliptic curves, mainly to cement definitions and conventions. With 3. Elliptic Functions, we study elliptic functions, in particular, the Weierstrass \\( \\wp \\)-function, which we will show can be used to parameterise an elliptic curve isomorphic to a complex torus. The content of 4. Uniformisation Theorem then shows that every elliptic curve is one of this form and hence isomorphic to a complex torus. To prove this, we introduce modular functions and the \\( j \\)-invariant. We then take a brief aside in 5. Some Ideas from Class Field Theory to recap basic ideas of algebraic number theory and then cover some of the main results of class field theory, including the answer to the problem of abelian extensions of imaginary quadratic fields. These results are very useful in 6. Complex Multiplication where we introduce the notion of elliptic curves with complex multiplication and use them to show that \\( j(\\tau) \\) is an algebraic integer when \\( \\tau \\) is an algebraic integer in an imaginary quadratic field. 7. Calculating Examples is then devoted to finding explicit values of \\( j(\\tau) \\) in these cases.\nWhilst we aim to explain the majority of the theory needed, there are a few prerequisites required for understanding this text. Primarily, we recommend the reader be comfortable with the fundamentals of Galois theory, specifically the fundamental theorem. Also, it would be helpful if the reader were somewhat already familiar with the basic ideas of elliptic curves and algebraic number theory as we make extensive use of both and the recaps given do not go into a lot of detail.\nDownload\n",
-  "wordCount" : "703",
+  "articleBody": "Over the summer of 2024, I was funded by UCL to undertake a research project under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to UCL for funding this and especially thankful for all the work Cecilia did in helping me with the project. She was a brilliant supervisor and I am very glad to have been able to work with her.\nThe project was on elliptic curves with complex multiplication. Below is attached a set of explanatory notes on the topic and I have pasted the introduction here for convenience.\nThe study of algebraic number theory is primarily the study of algebraic number fields, that is finite extensions of the rationals. When studying field extensions, one of the most indispensable tools is that of the Galois group of the extension and the famous result of Kronecker-Weber tells us that every finite extension of $\\mathbb{Q}$ with an abelian Galois group is contained in a field of the form $ \\mathbb{Q}(\\zeta_n)$ where $\\zeta_n$ is a primitive $n$th root of unity. One may then ask, given some number field $K$, does there exist a field $L$ such that every abelian extension of $K$ is a subfield of $L$? This explanatory note aims to partially answer that question in the case where $K = \\mathbb{Q}(\\sqrt{-m})$ for some square-free $m \\in \\mathbb{Z}_{\u003e0}$, that is an imaginary quadratic field. To do so, we will develop the theory of elliptic curves with complex multiplication which provides us with a correspondence between certain sets of elliptic curves over $\\mathbb{C}$ and the class group of an order in an imaginary quadratic field. This correspondence relies on values of the miraculous $j$-invariant, and it is $j(\\tau)$, for some $\\tau$ in the upper half plane that will generate the field $L$ we are after. This result requires the machinery of class field theory, which we will not go into detail on. We will, however, build up enough understanding to motivate and grasp the statement of the theorems. Along the way, we will give a detailed account of the uniformisation theorem; delve into the study of modular functions; and end by proving some remarkable facts about the $j$-invariant, in particular that, if $\\tau$ is an algebraic integer in an imaginary quadratic field, then $j(\\tau)$ is also an algebraic integer.\nThe structure of this note is as follows. We open with 2. Elliptic Curves which very briefly recaps key definitions relating to elliptic curves, mainly to cement definitions and conventions. With 3. Elliptic Functions, we study elliptic functions, in particular, the Weierstrass $\\wp$-function, which we will show can be used to parameterise an elliptic curve isomorphic to a complex torus. The content of 4. Uniformisation Theorem then shows that every elliptic curve is one of this form and hence isomorphic to a complex torus. To prove this, we introduce modular functions and the $j$-invariant. We then take a brief aside in 5. Some Ideas from Class Field Theory to recap basic ideas of algebraic number theory and then cover some of the main results of class field theory, including the answer to the problem of abelian extensions of imaginary quadratic fields. These results are very useful in 6. Complex Multiplication where we introduce the notion of elliptic curves with complex multiplication and use them to show that $j(\\tau)$ is an algebraic integer when $\\tau$ is an algebraic integer in an imaginary quadratic field. 7. Calculating Examples is then devoted to finding explicit values of $j(\\tau)$ in these cases.\nWhilst we aim to explain the majority of the theory needed, there are a few prerequisites required for understanding this text. Primarily, we recommend the reader be comfortable with the fundamentals of Galois theory, specifically the fundamental theorem. Also, it would be helpful if the reader were somewhat already familiar with the basic ideas of elliptic curves and algebraic number theory as we make extensive use of both and the recaps given do not go into a lot of detail.\nDownload\n",
+  "wordCount" : "660",
   "inLanguage": "en",
   "datePublished": "2024-10-02T00:00:00Z",
   "dateModified": "2024-10-02T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://ivannoden.com/posts/elliptic_curves_with_cm/"
+    "@id": "http://localhost:1313/posts/elliptic_curves_with_cm/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Ivan Noden",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://ivannoden.com/favicon.ico"
+      "url": "http://localhost:1313/favicon.ico"
     }
   }
 }
 </script>
-
-  
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-<script>
-  MathJax = {
-    tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
-      inlineMath: [['\\(', '\\)']]                  
-    }
-  };
-</script>
-
-
-  
-
 </head>
-
-<body class=" dark" id="top">
-
-<header class="header">
+<body id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://ivannoden.com/" accesskey="h" title="Ivan Noden (Alt + H)">Ivan Noden</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Ivan Noden (Alt + H)">Ivan Noden</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://ivannoden.com/tags/talks" title="Talks">
+                <a href="http://localhost:1313/tags/notes" title="Notes">
+                    <span>Notes</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/talks" title="Talks">
                     <span>Talks</span>
                 </a>
             </li>
             <li>
-                <a href="http://ivannoden.com/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://ivannoden.com/archive/" title="Archive">
+                <a href="http://localhost:1313/archive/" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
@@ -178,47 +180,47 @@ introduction here for convenience.</p>
 algebraic number fields, that is finite extensions of the rationals.
 When studying field extensions, one of the most indispensable tools is
 that of the Galois group of the extension and the famous result of
-Kronecker-Weber tells us that every finite extension of \(\mathbb{Q}\) with
-an abelian Galois group is contained in a field of the form \(
-\mathbb{Q}(\zeta_n) \) where \( \zeta_n \) is a primitive \( n \)th root of
-unity. One may then ask, given some number field \( K \), does there
-exist a field \( L \) such that every abelian extension of \( K \) is a
-subfield of \( L \)? This explanatory note aims to partially answer
-that question in the case where \( K = \mathbb{Q}(\sqrt{-m}) \) for some
-square-free \( m \in \mathbb{Z}_{>0} \), that is an imaginary quadratic field.
+Kronecker-Weber tells us that every finite extension of $\mathbb{Q}$ with
+an abelian Galois group is contained in a field of the form $ \mathbb{Q}(\zeta_n)$
+where $\zeta_n$ is a primitive $n$th root of
+unity. One may then ask, given some number field $K$, does there
+exist a field $L$ such that every abelian extension of $K$ is a
+subfield of $L$? This explanatory note aims to partially answer
+that question in the case where $K = \mathbb{Q}(\sqrt{-m})$ for some
+square-free $m \in \mathbb{Z}_{>0}$, that is an imaginary quadratic field.
 To do so, we will develop the theory of elliptic curves with complex
 multiplication which provides us with a correspondence between certain
-sets of elliptic curves over \( \mathbb{C} \) and the class group of an order
+sets of elliptic curves over $\mathbb{C}$ and the class group of an order
 in an imaginary quadratic field. This correspondence relies on values
-of the miraculous \( j \)-invariant, and it is \( j(\tau) \), for some
-\( \tau \) in the upper half plane that will generate the field \( L \)
+of the miraculous $j$-invariant, and it is $j(\tau)$, for some
+$\tau$ in the upper half plane that will generate the field $L$
 we are after. This result requires the machinery of class field theory,
 which we will not go into detail on. We will, however, build up enough
 understanding to motivate and grasp the statement of the theorems.
 Along the way, we will give a detailed account of the uniformisation
 theorem; delve into the study of modular functions; and end by proving
-some remarkable facts about the \( j \)-invariant, in particular that,
-if \( \tau \) is an algebraic integer in an imaginary quadratic field,
-then \( j(\tau) \) is also an algebraic integer.</p>
+some remarkable facts about the $j$-invariant, in particular that,
+if $\tau$ is an algebraic integer in an imaginary quadratic field,
+then $j(\tau)$ is also an algebraic integer.</p>
 <p>The structure of this note is as follows. We open with
 <em>2. Elliptic Curves</em> which very briefly recaps key definitions
 relating to elliptic curves, mainly to cement definitions and
 conventions. With <em>3. Elliptic Functions</em>, we study elliptic
-functions, in particular, the Weierstrass \( \wp \)-function, which we
+functions, in particular, the Weierstrass $\wp$-function, which we
 will show can be used to parameterise an elliptic curve isomorphic to a
 complex torus. The content of <em>4. Uniformisation Theorem</em> then shows
 that every elliptic curve is one of this form and hence isomorphic to a
-complex torus. To prove this, we introduce modular functions and the \(
-j \)-invariant. We then take a brief aside in <em>5. Some Ideas from Class Field Theory</em>
+complex torus. To prove this, we introduce modular functions and the
+$j$-invariant. We then take a brief aside in <em>5. Some Ideas from Class Field Theory</em>
 to recap basic ideas of algebraic number theory and then cover some of
 the main results of class field theory, including the answer to the
 problem of abelian extensions of imaginary quadratic fields. These
 results are very useful in <em>6. Complex Multiplication</em> where we
 introduce the notion of elliptic curves with complex multiplication and
-use them to show that \( j(\tau) \) is an algebraic integer when \(
-\tau \) is an algebraic integer in an imaginary quadratic field.
+use them to show that $j(\tau)$ is an algebraic integer when
+$\tau$ is an algebraic integer in an imaginary quadratic field.
 <em>7. Calculating Examples</em> is then devoted to finding explicit values
-of \( j(\tau) \) in these cases.</p>
+of $j(\tau)$ in these cases.</p>
 <p>Whilst we aim to explain the majority of the theory needed, there are a
 few prerequisites required for understanding this text. Primarily, we
 recommend the reader be comfortable with the fundamentals of Galois
@@ -233,18 +235,19 @@ both and the recaps given do not go into a lot of detail.</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://ivannoden.com/tags/notes/">Notes</a></li>
-      <li><a href="http://ivannoden.com/tags/files/">Files</a></li>
-      <li><a href="http://ivannoden.com/tags/number-theory/">Number Theory</a></li>
-      <li><a href="http://ivannoden.com/tags/algebraic-geometry/">Algebraic Geometry</a></li>
-      <li><a href="http://ivannoden.com/tags/algebraic-curves/">Algebraic Curves</a></li>
+      <li><a href="http://localhost:1313/tags/notes/">Notes</a></li>
+      <li><a href="http://localhost:1313/tags/files/">Files</a></li>
+      <li><a href="http://localhost:1313/tags/number-theory/">Number Theory</a></li>
+      <li><a href="http://localhost:1313/tags/algebraic-geometry/">Algebraic Geometry</a></li>
+      <li><a href="http://localhost:1313/tags/algebraic-curves/">Algebraic Curves</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://ivannoden.com/">Ivan Noden</a></span>
+        <span>&copy; 2025 <a href="http://localhost:1313/">Ivan Noden</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -258,9 +261,14 @@ both and the recaps given do not go into a lot of detail.</p>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
