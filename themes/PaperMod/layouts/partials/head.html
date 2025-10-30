@@ -186,7 +186,4 @@
 
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-{{- partial "templates/opengraph.html" . }}
-{{- partial "templates/twitter_cards.html" . }}
-{{- partial "templates/schema_json.html" . }}
 {{- end -}}
