@@ -31,30 +31,37 @@ params:
   socialIcons:
     - name: "email"
       title: "Email"
-      url: "mailto:ivan@ivannoden.com"
+      url: "mailto:ivan.noden.21@ucl.ac.uk"
     - name: "rss"
       title: "RSS"
       url: "/index.xml"
 
-menu:
-  main:
-    - identifier: Notes
-      name: Notes
-      url: /tags/notes
-      weight: 9
-    - identifier: Talks
-      name: Talks
-      url: /tags/talks
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: archive
-      name: Archive
-      url: /archive/
-      weight: 30
+  profileMode:
+    enabled: true
+    subtitle: PhD student at UCL, supervised by Dario Beraldo. Interested in algebraic geometry and geometric representation theory.
+#    buttons:
+#      - name: Notes
+#        url: "/notes"
 
+#menu:
+#  main:
+#    - identifier: Notes
+#      name: Notes
+#      url: /tags/notes
+#      weight: 9
+#    - identifier: Talks
+#      name: Talks
+#      url: /tags/talks
+#      weight: 10
+#    - identifier: tags
+#      name: Tags
+#      url: /tags/
+#      weight: 20
+#    - identifier: archive
+#      name: Archive
+#      url: /archive/
+#      weight: 30
+#
 markup:
   goldmark:
     extensions:
