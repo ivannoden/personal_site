@@ -6,21 +6,24 @@
     <description>Recent content in Algebraic Geometry on Ivan Noden</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Notes on Elliptic Curves with Complex Multiplication</title>
-      <link>http://localhost:1313/posts/elliptic_curves_with_cm/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/elliptic_curves_with_cm/</guid>
-      <description>&lt;p&gt;Over the summer of 2024, I was funded by UCL to undertake a research project
-under the supervision of Assoc. Prof. Cecilia Busuioc. I am very grateful to
-UCL for funding this and especially thankful for all the work Cecilia did in
-helping me with the project. She was a brilliant supervisor and I am very glad
-to have been able to work with her.&lt;/p&gt;
-&lt;p&gt;The project was on elliptic curves with complex multiplication. Below is
-attached a set of explanatory notes on the topic and I have pasted the
-introduction here for convenience.&lt;/p&gt;</description>
+      <title>L-equivalences via Symplectic and F4 Grassmannians</title>
+      <link>http://localhost:1313/papers/l_equivalences_grassmannians/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/l_equivalences_grassmannians/</guid>
+      <description>&lt;p&gt;Using a construction of Kanemitsu from &lt;a href=&#34;https://arxiv.org/abs/1812.05392&#34;&gt;(9)&lt;/a&gt; and observations by Rampazzo
+in &lt;a href=&#34;https://doi.org/10.31265/usps.78&#34;&gt;(19)&lt;/a&gt;, we find  examples of zero divisors
+in the Grothendieck ring of varieties by taking the zero
+loci of sections of vector bundles over symplectic and $F_4$ Grassmannians. These zero
+divisors yield instances of non-trivially L-equivalent Calabi-Yau varieties. This
+methodology is inspired by a similar process performed by Ito et al. on $G_2$
+Grassmannians in &lt;a href=&#34;https://arxiv.org/abs/1606.04210&#34;&gt;(8)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This work was based on my Master’s thesis, supervised by Dario Beraldo,
+who I would like to thank for all his valuable guidance on the project. I would
+also like to thank Travis Schedler and Ed Segal for providing corrections and
+comments on this paper.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,47 +6,75 @@
     <description>Recent content in Tags on Ivan Noden</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Algebraic Curves</title>
-      <link>http://localhost:1313/tags/algebraic-curves/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/algebraic-curves/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Algebraic Geometry</title>
       <link>http://localhost:1313/tags/algebraic-geometry/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/algebraic-geometry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arxiv</title>
+      <link>http://localhost:1313/tags/arxiv/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/arxiv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preprints</title>
+      <link>http://localhost:1313/tags/preprints/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/preprints/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Representation Theory</title>
+      <link>http://localhost:1313/tags/representation-theory/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/representation-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Curves</title>
+      <link>http://localhost:1313/tags/algebraic-curves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/algebraic-curves/</guid>
       <description></description>
     </item>
     <item>
       <title>Files</title>
       <link>http://localhost:1313/tags/files/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/files/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
       <link>http://localhost:1313/tags/notes/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Number Theory</title>
       <link>http://localhost:1313/tags/number-theory/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preprint</title>
+      <link>http://localhost:1313/tags/preprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/preprint/</guid>
       <description></description>
     </item>
     <item>
       <title>Talks</title>
       <link>http://localhost:1313/tags/talks/</link>
-      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/talks/</guid>
       <description></description>
     </item>

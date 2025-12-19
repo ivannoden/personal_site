@@ -39,16 +39,16 @@ params:
   profileMode:
     enabled: true
     subtitle: PhD student at UCL, supervised by Dario Beraldo. Interested in algebraic geometry and geometric representation theory.
-#    buttons:
-#      - name: Notes
-#        url: "/notes"
+    buttons:
+      - name: Papers and Preprints
+        url: "/papers"
 
-#menu:
-#  main:
-#    - identifier: Notes
-#      name: Notes
-#      url: /tags/notes
-#      weight: 9
+menu:
+  main:
+    - identifier: Papers and Preprints
+      name: Papers and Preprints
+      url: /papers
+      weight: 9
 #    - identifier: Talks
 #      name: Talks
 #      url: /tags/talks

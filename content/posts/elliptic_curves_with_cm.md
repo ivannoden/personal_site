@@ -2,6 +2,7 @@
 title: "Notes on Elliptic Curves with Complex Multiplication"
 tags: ["notes", "files", "number theory", "algebraic geometry", "algebraic curves"]
 date: "2024-10-02"
+draft: true
 ---
 
 Over the summer of 2024, I was funded by UCL to undertake a research project

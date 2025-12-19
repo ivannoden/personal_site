@@ -2,6 +2,7 @@
 title: "IMA TMT 2024 Conference: Patterns in Prime Numbers"
 tags: ["talks", "files", "number theory"]
 date: "2024-03-21"
+draft: true
 ---
 
 The slides for a group presentation for a general audience on the topic **Patterns in Prime Numbers**
